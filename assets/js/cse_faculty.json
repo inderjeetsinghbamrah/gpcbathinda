@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "imageURL": "assets/images/cse/mohanjeet.jpg",
+        "name": "Er. Mohanjeet Kaur",
+        "designation":"Lecturer",
+        "qualification":"B.Tech(Computer Engg),<br/> M.Tech(Computer Engg)",
+        "specialization":"Networking"
+    },
+    {
+        "id": "2",
+        "firstName": "Mary",
+        "lastName": "Peterson"
+    },
+    {
+        "id": "3",
+        "firstName": "George",
+        "lastName": "Hansen"
+    }
+]
