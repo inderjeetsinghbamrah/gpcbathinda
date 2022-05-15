@@ -1071,6 +1071,16 @@ section.upcoming-meetings .categories .main-button-red a {
   margin-bottom: 30px;
 }
 
+.meeting-item .title {
+  background-color: #9c2c34;
+  color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  min-height: 7vh;
+  padding: 20px;
+  font-size: large;
+  font-weight: bold;
+}
 .meeting-item .thumb {
   position: relative;
 }
@@ -1100,6 +1110,16 @@ section.upcoming-meetings .categories .main-button-red a {
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+
+.down-item .flex-item {
+  display: flex;
+  align-items: center;
+}
+
+.down-item .flex-item .img {
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .meeting-item .down-content .date {
