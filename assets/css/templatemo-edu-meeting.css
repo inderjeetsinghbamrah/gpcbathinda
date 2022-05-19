@@ -906,10 +906,10 @@ services
 }
 
 .services .item {
-  background-image: url(../images/service-item-bg.jpg);
+  background-image: url(../images/back_Card3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; 
   border-radius: 20px;
   text-align: center;
   color: #fff;
@@ -917,7 +917,9 @@ services
 }
 
 .services .item .icon {
-  max-width: 60px;
+  max-width: 80px;
+  background-color: white;
+  border-radius: 50%;
   margin: 0 auto;
 }
 
