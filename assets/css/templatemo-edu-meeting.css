@@ -826,6 +826,7 @@ banner
   max-height: 100vh;
   object-fit: cover;
   z-index: -1;
+  opacity: 0.6;
 }
 
 #bg-video::-webkit-media-controls {
@@ -858,13 +859,15 @@ banner
 }
 
 .main-banner .caption h2 {
-  margin-top: 20px;
+  margin-top: -100px;
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 40px;
   text-transform: uppercase;
-  font-weight: 800;
-  color: #fff;
+  font-weight: 900;
+  color: #E5CEDC;
   letter-spacing: 1px;
+  text-shadow: 4px 4px 14px #454955;
+  font-family: 'Signika', sans-serif;
 }
 
 .main-banner .caption h2 em {
@@ -874,9 +877,11 @@ banner
 }
 
 .main-banner .caption p {
-  color: #fff;
+  color: #FFE1A8;
   font-size: 14px;
-  max-width: 570px;
+  font-weight: bold;
+  max-width: 800px;
+  text-shadow: 4px 4px 14px #E26D5C;
 }
 
 .main-banner .caption .main-button-red {
