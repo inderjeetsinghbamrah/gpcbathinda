@@ -1021,8 +1021,8 @@ section.upcoming-meetings {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 230px;
-  padding-bottom: 110px;
+  padding-top: 250px;
+  padding-bottom: 80px;
 }
 
 section.upcoming-meetings .section-heading {
@@ -1033,13 +1033,12 @@ section.upcoming-meetings .categories {
   background-color: #fff;
   border-radius: 20px;
   padding: 40px;
-  margin-right: 45px;
 }
 
 section.upcoming-meetings .categories h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #1f272b;
+  color: #642221;
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
@@ -1077,7 +1076,7 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item .title {
-  background-color: #9c2c34;
+  background-color: #642221;
   color: #fff;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -1971,4 +1970,20 @@ responsive
 
 .justifyMe {
   text-align: justify;
+}
+
+section.events {
+  /*background-image: url(../images/meetings-bg.jpg);*/
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.events .section-heading{
+  text-align: center;
+}
+
+.new-news{
+  width:20%;
 }
