@@ -413,13 +413,22 @@ header
 }
 
 .header-area .main-nav .logo {
-  line-height: 100px;
-  color: #efefef;
-  font-size: 28px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  width: auto;
   float: left;
+  border-radius: 50%;
+  height: 110px;
+  padding: 5px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.header-area .main-nav .text-logo {
+  height: 80px;
+  width: auto;
+  float: left;  
+  padding: 5px;
+  margin-top:10px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -676,7 +685,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
+  min-height: 120px;
 }
 
 .header-area .nav {
@@ -699,7 +708,12 @@ header
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
-    color: #1e1e1e;
+    color: #d5c4c4;
+    width: auto;
+    height: 100px;
+  }
+  .header-area.header-sticky {
+    min-height: 100px;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -718,9 +732,6 @@ header
   }
   .header-area .container {
     padding: 0px;
-  }
-  .header-area .logo {
-    margin-left: 30px;
   }
   .header-area .menu-trigger {
     display: block !important;
