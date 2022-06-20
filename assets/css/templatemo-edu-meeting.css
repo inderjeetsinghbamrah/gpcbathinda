@@ -397,7 +397,7 @@ header
 .header-area {
   /*background-color: rgba(250, 250, 250, 0.15);*/
   position: absolute;
-  top: 65px;
+  top: 40px;
   left: 0;
   right: 0;
   z-index: 100;
@@ -866,7 +866,7 @@ banner
 }
 
 .main-banner .caption h2 {
-  margin-top: 300px;
+  margin-top: 16%;
   margin-bottom: 48px;
   font-size: 36px;
   text-transform: uppercase;
@@ -884,9 +884,20 @@ banner
 .main-banner .caption p {
   color: #fff;
   font-size: 14px;
-  max-width: 55%;
+  width: 55%;
   margin-right: 20px;
 }
+
+@media (max-width:992px){
+  .main-banner .caption p{
+    color: #fff;
+  font-size: 14px;
+  width: 90%;
+  margin-right: 20px;
+  margin-left:20px;
+  }
+}
+
 
 .main-banner .caption .main-button-red {
   margin-top: 30px;
@@ -1896,7 +1907,8 @@ responsive
   }
 
   .main-banner .caption h2 {
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-left:20px;
     margin-bottom: 10px;
     font-size: 22px;
   }
