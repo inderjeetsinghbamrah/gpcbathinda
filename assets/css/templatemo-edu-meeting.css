@@ -152,13 +152,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.left-content a {
+  color: #3cf;
+}
 a {
   text-decoration: none !important;
-  color: #3cf;
+  color: #9c2c34;
+  font-weight: bold;
 }
 
 a:hover {
-  color: #fc3;
+  color: rgb(125, 84, 9);
 }
 
 h1,
@@ -686,7 +690,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 120px;
+  min-height: 100px;
 }
 
 .header-area .nav {
@@ -1598,10 +1602,10 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-image: url(../images/heading-bg.jpg); */
+  /* background-position: center center;
+  background-repeat: no-repeat; */
+  /* background-size: cover; */
   padding-top: 230px;
   padding-bottom: 110px;
   text-align: center;
@@ -1735,8 +1739,10 @@ section.meetings-page .pagination ul li a:hover {
 .meeting-single-item .down-content {
   background-color: #fff;
   padding: 40px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
+  margin-top: -100px;
+  /* border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; */
 }
 
 .meeting-single-item .thumb .date {
@@ -1783,7 +1789,7 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .down-content p {
   color: #1f272b;
-  font-size: 14px;
+  font-size: 11pt;
 }
 
 .meeting-single-item .down-content p.description {
@@ -2111,7 +2117,7 @@ responsive
   width: 100%;
   padding: 30px 20px;
   font-size: 11pt;
-  color: rgba(0, 0, 0, 0.54);
+  color: black;
   display: none;
   text-align: justify;
 }
@@ -2140,7 +2146,7 @@ input:checked + .box .box-close {
 .arrows section .box-title {
   padding-left: 44px;
   width: calc(100% - 64px);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 .arrows section .box-title:hover {
@@ -2163,6 +2169,17 @@ input:checked + section.box .box-title:before {
 #last_box {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.box-content .main-button-red {
+  margin-top: 20px;
+}
+
+/* heading body */
+#headingBody {
+  font-family: "Arima", cursive;
+  color: white;
+  text-shadow: 5px 5px 10px #9c2c34;
 }
 
 /* Testimonial CSS */
