@@ -1793,12 +1793,17 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content p.description {
-  margin-top: 40px;
+  margin-top: 20px;
   padding-top: 40px;
   border-top: 1px solid #eee;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   padding-bottom: 40px;
   border-bottom: 1px solid #eee;
+  text-align: justify;
+}
+
+.meeting-single-item .down-content ol {
+  font-size: 11pt;
 }
 
 .meeting-single-item .down-content .share {
@@ -2180,6 +2185,19 @@ input:checked + section.box .box-title:before {
   font-family: "Arima", cursive;
   color: white;
   text-shadow: 5px 5px 10px #9c2c34;
+}
+
+/* eligibility conditions */
+.meeting-single-item .down-content div.eligibility {
+  padding-left: 10px;
+  text-align: justify;
+  font-size: 11pt;
+  margin-bottom: 10px;
+}
+
+div.eligibility img {
+  height: 15px;
+  width: 15px;
 }
 
 /* Testimonial CSS */
