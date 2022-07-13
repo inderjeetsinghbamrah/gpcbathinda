@@ -2217,31 +2217,49 @@ div.eligibility img {
 }
 /* news section */
 .news-section {
-  display: flex;
-  flex-direction: column;
   height: auto;
   color: white;
-  background-color: #0f485f;
-
   width: 450px;
-  border-radius: 10px;
   padding: 12px;
+  /* From https://css.glass */
+  background: rgba(0, 23, 26, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(28, 69, 82, 0.689);
+}
+.news-section img {
+  width: 50px;
+  height: auto;
 }
 .news-section > div {
-  background-color: white;
-  color: #9c2c34;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 .news-section > div > h5 {
-  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.news-section > div > marquee > ol {
-  font-size: 16px;
+.news-section marquee {
+  margin-top: 20px;
+}
+.news-section > marquee > ol {
+  font-size: 14px;
   text-align: left;
   padding: 10px;
-  font-weight: bold;
+}
+.news-section > marquee > ol > li {
+  padding-top: 10px;
+}
+.news-section li a {
+  color: white;
+  text-decoration: none;
+}
+.news-section li a:hover {
+  color: #9c2c34;
+  text-decoration: none;
 }
 @media (max-width: 992px) {
   .news-section {
