@@ -2270,7 +2270,7 @@ div.eligibility img {
 
 /* testimonial items */
 .testimonial-item {
-  height: 300px;
+  height: 420px;
   /* From https://css.glass */
   background: rgba(97, 120, 76, 0.3);
   border-radius: 16px;
@@ -2278,4 +2278,51 @@ div.eligibility img {
   backdrop-filter: blur(6.1px);
   -webkit-backdrop-filter: blur(6.1px);
   border: 1px solid rgba(97, 120, 76, 0.71);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-item img {
+  width: 100px;
+  border-radius: 50%;
+}
+.testimonial-item h3 {
+  color: #9c2c34;
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+.testimonial-item p {
+  padding: 10px;
+  color: #cef0d4;
+  text-shadow: 0 1px 1px #9c2c34;
+  line-height: 1.2rem;
+  font-weight: bold;
+  text-align: justify;
+}
+.testimonial-item p a {
+  color: #9c2c34;
+  text-shadow: 0 1px 1px #fff;
+}
+.testimonial-item > span {
+  font-family: "Lobster Two", cursive;
+}
+.testimonial-item > span:nth-of-type(1) {
+  font-size: 1.2rem;
+  color: #9c2c34;
+  text-shadow: 0 1px 1px #fff;
+  font-style: italic;
+}
+.testimonial-item > span:nth-of-type(1) > img {
+  width: 50px;
+  text-shadow: 1px 1px 1px #fff;
+}
+.testimonial-item > span:nth-of-type(2) {
+  font-size: 1.3rem;
+  color: #cef0d4;
+  text-shadow: 0 1px 1px #9c2c34;
+  font-style: italic;
 }

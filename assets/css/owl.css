@@ -52,13 +52,13 @@
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
 }
-.owl-carousel .owl-item img {
+/* .owl-carousel .owl-item img {
   display: block;
   width: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-nav.disabled, */
 .owl-carousel .owl-dots.disabled {
   display: none;
 }
