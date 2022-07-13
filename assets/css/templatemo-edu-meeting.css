@@ -2287,7 +2287,7 @@ div.eligibility img {
   width: 100px;
   border-radius: 50%;
 }
-.testimonial-item h3 {
+.testimonial-item h2 {
   color: #9c2c34;
   font-family: "Great Vibes", cursive;
   font-weight: bold;
@@ -2297,8 +2297,8 @@ div.eligibility img {
 }
 .testimonial-item p {
   padding: 10px;
-  color: #cef0d4;
-  text-shadow: 0 1px 1px #9c2c34;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #9c2c34;
   line-height: 1.2rem;
   font-weight: bold;
   text-align: justify;
