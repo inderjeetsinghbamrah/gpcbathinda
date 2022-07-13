@@ -1917,7 +1917,7 @@ responsive
 
 @media (max-width: 992px) {
   .main-banner .caption {
-    top: 63%;
+    top: 70%;
   }
 
   .main-banner .caption h2 {
@@ -2201,3 +2201,51 @@ div.eligibility img {
 }
 
 /* Testimonial CSS */
+.main-heading-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+}
+@media (max-width: 992px) {
+  .main-heading-text {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* news section */
+.news-section {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  color: white;
+  background-color: #0f485f;
+
+  width: 450px;
+  border-radius: 10px;
+  padding: 12px;
+}
+.news-section > div {
+  background-color: white;
+  color: #9c2c34;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+.news-section > div > h5 {
+  display: inline;
+}
+.news-section > div > marquee > ol {
+  font-size: 16px;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+@media (max-width: 992px) {
+  .news-section {
+    margin-left: 12px;
+    width: 90%;
+  }
+}
