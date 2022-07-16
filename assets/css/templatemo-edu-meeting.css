@@ -2373,6 +2373,12 @@ div.eligibility img {
   width: 30px;
   text-shadow: 1px 1px 1px #fff;
 }
+.testimonial-item > h6 {
+  font-family: "Lobster Two", cursive;
+  font-size: 14px;
+  color: #6f0000;
+  font-style: italic;
+}
 .testimonial-item > span:nth-of-type(2) {
   font-size: 14px;
   color: #cef0d4;

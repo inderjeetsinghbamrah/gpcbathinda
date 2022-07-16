@@ -1,0 +1,22 @@
+.org-body {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.content-org {
+  margin-top: 10px;
+  text-align: justify;
+}
+.arrow-head {
+  width: 15px;
+  margin-right: 10px;
+}
+.collage-org img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .org-body {
+    flex-direction: column;
+  }
+}
