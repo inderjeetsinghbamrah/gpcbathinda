@@ -12,8 +12,13 @@
   width: 15px;
   margin-right: 10px;
 }
-.collage-org img {
-  width: 100%;
+.principal-mesg img {
+  width: 250px;
+  border-radius: 50%;
+}
+.principal-mesg figcaption {
+  text-align: center;
+  font-style: italic;
 }
 @media (max-width: 992px) {
   .org-body {
