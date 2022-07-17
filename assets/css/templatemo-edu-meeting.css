@@ -285,6 +285,8 @@ body {
 }
 
 .main-button-red a {
+  margin-bottom: 20px;
+  width: fit-content;
   font-size: 13px;
   color: #fff;
   background-color: #6f0000;
