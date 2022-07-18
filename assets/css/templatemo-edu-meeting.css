@@ -2265,6 +2265,10 @@ div.eligibility img {
   -webkit-backdrop-filter: blur(8.9px);
   border: 1px solid rgba(28, 69, 82, 0.689);
 }
+.news-section a:hover {
+  color: #bd9e9e;
+  text-shadow: 3px 3px 5px white;
+}
 .news-section img {
   width: 50px;
   height: auto;
