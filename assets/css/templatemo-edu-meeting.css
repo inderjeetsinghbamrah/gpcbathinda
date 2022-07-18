@@ -2669,3 +2669,22 @@ div.eligibility img {
     gap: 2rem;
   }
 }
+/* admission_eligibility */
+.admission-content {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.admission-content .right-body img {
+  width: 550px;
+}
+@media (max-width: 992px) {
+  .admission-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .admission-content .right-body img {
+    width: 100%;
+  }
+}
