@@ -2706,3 +2706,48 @@ div.eligibility img {
   z-index: 1;
   background-color: white;
 }
+
+/* sports and nss */
+.sports-nss {
+  display: flex;
+  gap: 2rem;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.sports {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.sports-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.sports-body h4 {
+  width: fit-content;
+}
+.sports-body p {
+  text-align: justify;
+}
+.sports-image img {
+  width: 500px;
+}
+.nss {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.nss-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.nss-body h4 {
+  width: fit-content;
+}
+.nss-image img {
+  width: 500px;
+}
