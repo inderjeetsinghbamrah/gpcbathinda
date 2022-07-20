@@ -2776,6 +2776,7 @@ div.eligibility img {
   .footer-information {
     flex-direction: column;
     gap: 2rem;
+    margin-left: 20px;
   }
 }
 
