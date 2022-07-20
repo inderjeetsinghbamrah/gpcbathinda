@@ -2819,3 +2819,21 @@ div.eligibility img {
 .inst-basic-information p {
   color: white;
 }
+/* library */
+.library {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 992px) {
+  .library {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.library-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
