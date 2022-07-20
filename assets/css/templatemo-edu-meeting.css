@@ -2240,7 +2240,7 @@ div.eligibility img {
 .main-heading-text {
   display: flex;
   align-items: flex-start;
-  gap: 4rem;
+  gap: 2rem;
 }
 @media (max-width: 992px) {
   .main-heading-text {
@@ -2630,7 +2630,18 @@ div.eligibility img {
   line-height: 1.5rem;
   font-size: 14px;
 }
-.tnp-team {
+.tnp-introduction .placement-inner-text {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  gap: 3rem;
+}
+@media (max-width: 992px) {
+  .tnp-introduction .placement-inner-text {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 /* dept placement */
