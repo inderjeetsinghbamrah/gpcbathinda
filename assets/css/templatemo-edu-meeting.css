@@ -2837,3 +2837,24 @@ div.eligibility img {
   flex-direction: column;
   gap: 2rem;
 }
+/* hostel */
+.hostel {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 992px) {
+  .hostel {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.hostel-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.hostel-photo img {
+  width: 400px;
+}
