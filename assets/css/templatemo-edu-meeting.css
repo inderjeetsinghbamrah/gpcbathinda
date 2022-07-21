@@ -2880,3 +2880,47 @@ div.eligibility img {
 .canteen-photo img {
   width: 400px;
 }
+
+/* club */
+.src {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.club {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border: 2px solid #6f0000;
+  border-radius: 10px;
+}
+@media (max-width: 992px) {
+  .intro {
+    width: 100%;
+  }
+}
+.club-image {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.club-image img {
+  width: 450px;
+}
+@media (max-width: 992px) {
+  .club {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .club-image img {
+    width: 100%;
+  }
+}
+
+.club .intro p {
+  text-align: justify;
+}
