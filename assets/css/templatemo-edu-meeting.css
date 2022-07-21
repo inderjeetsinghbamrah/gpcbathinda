@@ -2858,3 +2858,25 @@ div.eligibility img {
 .hostel-photo img {
   width: 400px;
 }
+
+/* canteen */
+.canteen {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 992px) {
+  .canteen {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.canteen-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.canteen-photo img {
+  width: 400px;
+}
