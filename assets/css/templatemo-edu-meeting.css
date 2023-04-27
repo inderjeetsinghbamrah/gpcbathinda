@@ -2590,7 +2590,7 @@ div.eligibility img {
 /* hod design */
 .hod-message {
   display: flex;
-  gap: 6rem;
+  gap: 5rem;
   text-align: justify;
   justify-content: space-between;
   width: fit-content;
