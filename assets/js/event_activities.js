@@ -1,8 +1,7 @@
 var imgArray1 = [
-  "assets/images/events/2023/research_innovation_club/apr23_1.jpeg",
-  "assets/images/events/2023/research_innovation_club/apr23_2.jpeg",
-  "assets/images/events/2023/research_innovation_club/apr23_3.jpeg",
-  "assets/images/events/2023/research_innovation_club/apr23_4.jpeg",
+  "assets/images/events/2023/pharmacy_dept/blood_donation1.jpeg",
+  "assets/images/events/2023/pharmacy_dept/blood_donation2.jpeg",
+  "assets/images/events/2023/pharmacy_dept/blood_donation3.jpeg",
 ];
 var curIndex1 = 0;
 var imgDuration1 = 5000;
@@ -18,8 +17,8 @@ function slideShow1() {
 slideShow1();
 
 var imgArray2 = [
-  "assets/images/events/2023/cultural_club/apr23_1.jpeg",
-  "assets/images/events/2023/cultural_club/apr23_2.jpeg",
+  "assets/images/events/2023/logical_reasoning_club/pic1.jpeg",
+  "assets/images/events/2023/logical_reasoning_club/pic2.jpeg",
 ];
 var curIndex2 = 0;
 var imgDuration2 = 5000;
@@ -35,9 +34,9 @@ function slideShow2() {
 slideShow2();
 
 var imgArray3 = [
-  "assets/images/events/2023/personality_development_club/apr23_1.jpeg",
-  "assets/images/events/2023/personality_development_club/apr23_2.jpeg",
-  "assets/images/events/2023/personality_development_club/apr23_3.jpeg",
+  "assets/images/events/2023/personality_development_club/sep_1.jpeg",
+  "assets/images/events/2023/personality_development_club/sep_2.jpeg",
+  "assets/images/events/2023/personality_development_club/sep_3.jpeg",
 ];
 var curIndex3 = 0;
 var imgDuration3 = 5000;
@@ -53,9 +52,9 @@ function slideShow3() {
 slideShow3();
 
 var imgArray4 = [
-  "assets/images/events/2023/games/mar23_1.jpeg",
-  "assets/images/events/2023/games/mar23_2.jpeg",
-  "assets/images/events/2023/games/mar23_3.jpeg",
+  "assets/images/events/2023/science_club/sep_1.jpeg",
+  "assets/images/events/2023/science_club/sep_2.jpeg",
+  "assets/images/events/2023/science_club/sep_3.jpeg",
 ];
 var curIndex4 = 0;
 var imgDuration4 = 5000;
@@ -69,3 +68,40 @@ function slideShow4() {
   setTimeout("slideShow4()", imgDuration4);
 }
 slideShow4();
+
+var imgArray5 = [
+  "assets/images/events/2023/art_hobby_club/sep_1.jpeg",
+  "assets/images/events/2023/art_hobby_club/sep_2.jpeg",
+  "assets/images/events/2023/art_hobby_club/sep_3.jpeg",
+];
+var curIndex5 = 0;
+var imgDuration5 = 5000;
+
+function slideShow5() {
+  document.getElementById("image5").src = imgArray5[curIndex5];
+  curIndex5++;
+  if (curIndex5 == imgArray5.length) {
+    curIndex5 = 0;
+  }
+  setTimeout("slideShow5()", imgDuration5);
+}
+slideShow5();
+
+var imgArray6 = [
+  "assets/images/events/2023/research_innovation_club/apr23_1.jpeg",
+  "assets/images/events/2023/research_innovation_club/apr23_2.jpeg",
+  "assets/images/events/2023/research_innovation_club/apr23_3.jpeg",
+  "assets/images/events/2023/research_innovation_club/apr23_4.jpeg",
+];
+var curIndex6 = 0;
+var imgDuration6 = 5000;
+
+function slideShow6() {
+  document.getElementById("image6").src = imgArray6[curIndex6];
+  curIndex6++;
+  if (curIndex6 == imgArray6.length) {
+    curIndex6 = 0;
+  }
+  setTimeout("slideShow6()", imgDuration6);
+}
+slideShow6();
