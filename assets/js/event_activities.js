@@ -105,3 +105,71 @@ function slideShow6() {
   setTimeout("slideShow6()", imgDuration6);
 }
 slideShow6();
+
+var imgArray7 = [
+  "assets/images/events/2023/standard_club/oct_23_1.jpeg",
+  "assets/images/events/2023/standard_club/oct_23_2.jpeg",
+  "assets/images/events/2023/standard_club/oct_23_3.jpeg",
+];
+var curIndex7 = 0;
+var imgDuration7 = 5000;
+
+function slideShow7() {
+  document.getElementById("image7").src = imgArray7[curIndex7];
+  curIndex7++;
+  if (curIndex7 == imgArray7.length) {
+    curIndex7 = 0;
+  }
+  setTimeout("slideShow7()", imgDuration7);
+}
+slideShow7();
+
+var imgArray8 = ["assets/images/events/2023/common/Seminar-1696507599565.jpg"];
+var curIndex8 = 0;
+var imgDuration8 = 5000;
+
+function slideShow8() {
+  document.getElementById("image8").src = imgArray8[curIndex8];
+  curIndex8++;
+  if (curIndex8 == imgArray8.length) {
+    curIndex8 = 0;
+  }
+  setTimeout("slideShow8()", imgDuration8);
+}
+slideShow8();
+
+var imgArray9 = [
+  "assets/images/events/2023/ptis_participation_23/pic1.jpeg",
+  "assets/images/events/2023/ptis_participation_23/pic2.jpeg",
+  "assets/images/events/2023/ptis_participation_23/pic3.jpeg",
+];
+var curIndex9 = 0;
+var imgDuration9 = 5000;
+
+function slideShow9() {
+  document.getElementById("image9").src = imgArray9[curIndex9];
+  curIndex9++;
+  if (curIndex9 == imgArray9.length) {
+    curIndex9 = 0;
+  }
+  setTimeout("slideShow9()", imgDuration9);
+}
+slideShow9();
+
+var imgArray10 = [
+  "assets/images/events/2023/ptis_organisation_23/pic1.jpeg",
+  "assets/images/events/2023/ptis_organisation_23/pic2.jpeg",
+  "assets/images/events/2023/ptis_organisation_23/pic3.jpeg",
+];
+var curIndex10 = 0;
+var imgDuration10 = 5000;
+
+function slideShow10() {
+  document.getElementById("image10").src = imgArray10[curIndex10];
+  curIndex10++;
+  if (curIndex10 == imgArray10.length) {
+    curIndex10 = 0;
+  }
+  setTimeout("slideShow10()", imgDuration10);
+}
+slideShow10();

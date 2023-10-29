@@ -2682,6 +2682,28 @@ div.eligibility img {
   background-color: white;
 }
 
+/* dept admission */
+.dept-admission {
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 4px dotted #6f0000;
+  width: fit-content;
+  margin-top: 20px;
+}
+.data-admission {
+  height: 500px;
+  overflow: auto;
+  margin-top: 40px;
+}
+.data-admission table thead {
+  font-weight: bold;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
 /* dept-contact */
 .contact-dept {
   display: flex;
@@ -2706,6 +2728,11 @@ div.eligibility img {
   gap: 2rem;
   align-items: center;
   justify-content: center;
+}
+.admission_data {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .admission-content .right-body img {
   width: 550px;
