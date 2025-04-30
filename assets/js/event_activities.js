@@ -1,7 +1,7 @@
 var imgArray1 = [
-  "assets/images/events/2023/pharmacy_dept/blood_donation1.jpeg",
-  "assets/images/events/2023/pharmacy_dept/blood_donation2.jpeg",
-  "assets/images/events/2023/pharmacy_dept/blood_donation3.jpeg",
+    "assets/images/events/2025/art_hobby_club/rangoli_competition/pic1.jpg",
+    "assets/images/events/2025/art_hobby_club/rangoli_competition/pic2.jpg",
+    "assets/images/events/2025/art_hobby_club/rangoli_competition/pic3.jpg",
 ];
 var curIndex1 = 0;
 var imgDuration1 = 5000;
@@ -17,8 +17,9 @@ function slideShow1() {
 slideShow1();
 
 var imgArray2 = [
-  "assets/images/events/2023/logical_reasoning_club/pic1.jpeg",
-  "assets/images/events/2023/logical_reasoning_club/pic2.jpeg",
+    "assets/images/events/2024/science_club/constitutional_day/pic1.jpg",
+    "assets/images/events/2024/science_club/constitutional_day/pic2.jpg",
+    "assets/images/events/2024/science_club/constitutional_day/pic3.jpg",
 ];
 var curIndex2 = 0;
 var imgDuration2 = 5000;
@@ -107,9 +108,9 @@ function slideShow6() {
 slideShow6();
 
 var imgArray7 = [
-  "assets/images/events/2023/standard_club/oct_23_1.jpeg",
-  "assets/images/events/2023/standard_club/oct_23_2.jpeg",
-  "assets/images/events/2023/standard_club/oct_23_3.jpeg",
+    "assets/images/events/2025/nss/red_ribbon_club/pic1.jpg",
+    "assets/images/events/2025/nss/red_ribbon_club/pic2.jpg",
+    "assets/images/events/2025/nss/red_ribbon_club/pic3.jpg",
 ];
 var curIndex7 = 0;
 var imgDuration7 = 5000;
@@ -124,7 +125,11 @@ function slideShow7() {
 }
 slideShow7();
 
-var imgArray8 = ["assets/images/events/2023/common/Seminar-1696507599565.jpg"];
+var imgArray8 = [
+    "assets/images/events/2025/art_hobby_club/pic1.jpg",
+    "assets/images/events/2025/art_hobby_club/pic2.jpg",
+    "assets/images/events/2025/art_hobby_club/pic3.jpg",
+];
 var curIndex8 = 0;
 var imgDuration8 = 5000;
 
@@ -139,9 +144,10 @@ function slideShow8() {
 slideShow8();
 
 var imgArray9 = [
-  "assets/images/events/2023/ptis_participation_23/pic1.jpeg",
-  "assets/images/events/2023/ptis_participation_23/pic2.jpeg",
-  "assets/images/events/2023/ptis_participation_23/pic3.jpeg",
+  "assets/images/events/2025/annual_prize_distribution/pic1.jpg",
+  "assets/images/events/2025/annual_prize_distribution/pic2.jpg",
+  "assets/images/events/2025/annual_prize_distribution/pic3.jpg",
+  "assets/images/events/2025/annual_prize_distribution/pic4.jpg",
 ];
 var curIndex9 = 0;
 var imgDuration9 = 5000;
@@ -157,9 +163,9 @@ function slideShow9() {
 slideShow9();
 
 var imgArray10 = [
-  "assets/images/events/2023/ptis_organisation_23/pic1.jpeg",
-  "assets/images/events/2023/ptis_organisation_23/pic2.jpeg",
-  "assets/images/events/2023/ptis_organisation_23/pic3.jpeg",
+    "assets/images/events/2025/literary_club/speech_competition/pic1.jpg",
+    "assets/images/events/2025/literary_club/speech_competition/pic2.jpg",
+    "assets/images/events/2025/literary_club/speech_competition/pic3.jpg",
 ];
 var curIndex10 = 0;
 var imgDuration10 = 5000;
