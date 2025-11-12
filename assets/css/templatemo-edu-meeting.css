@@ -23,16 +23,16 @@ Table of contents
 12. portfolio
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body,
@@ -190,10 +190,10 @@ img {
   overflow: hidden;
 }
 
-/* 
+/*
 ---------------------------------------------
 global styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -231,12 +231,12 @@ body {
     rgba(86, 55, 39, 1)
   );*/
   /*
-  background: #112b3c; 
+  background: #112b3c;
   background: -webkit-linear-gradient(
     bottom left,
     #32678a,
     #112b3c
-  ); 
+  );
   background: linear-gradient(
     bottom left,
     #32678a,
@@ -330,10 +330,10 @@ body {
   color: #fff;
 }
 
-/* 
+/*
 ---------------------------------------------
 header
---------------------------------------------- 
+---------------------------------------------
 */
 
 .sub-header {
@@ -413,6 +413,8 @@ header
   left: 0;
   right: 0;
   z-index: 100;
+   display:flex;
+  justify-content:space-between;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
@@ -420,21 +422,36 @@ header
 }
 
 .header-area .main-nav {
+ display: flex;
+  gap: 5px;
   min-height: 100px;
   background: transparent;
 }
 
+@media (max-width: 1399px) {
 .header-area .main-nav .logo {
   width: auto;
   float: left;
   border-radius: 50%;
   height: 110px;
-  padding: 5px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+}
+
+.header-area .main-nav .right-logo {
+  width: auto;
+  float: left;
+  border-radius: 50%;
+  height: 110px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
 .header-area .main-nav .text-logo {
   height: 80px;
   width: auto;
@@ -472,7 +489,7 @@ header
 }
 @media (max-width: 1399px) {
   .header-area .main-nav .nav {
-    margin-right: 5%;
+    margin-right:0;
   }
 }
 
@@ -858,10 +875,10 @@ header
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 banner
---------------------------------------------- 
+---------------------------------------------
 */
 
 .main-banner {
@@ -1298,10 +1315,10 @@ section.apply-now .item p {
   padding-top: 0;
 }
 
-/* 
+/*
 ---------------------------------------------
 courses
---------------------------------------------- 
+---------------------------------------------
 */
 
 section.our-courses {
@@ -1516,10 +1533,10 @@ section.our-facts .video img {
   max-width: 56px;
 }
 
-/* 
+/*
 ---------------------------------------------
 contact us
---------------------------------------------- 
+---------------------------------------------
 */
 
 section.contact-us {
@@ -1895,10 +1912,10 @@ section.meetings-page .pagination ul li a:hover {
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 responsive
---------------------------------------------- 
+---------------------------------------------
 */
 
 @media (max-width: 1300px) {
