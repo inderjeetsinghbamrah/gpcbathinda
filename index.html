@@ -57,29 +57,37 @@ https://templatemo.com/tm-569-edu-meeting
   }
 }
 </style>
-    <script type="text/javascript">
+   <script type="text/javascript">
   function googleTranslateElementInit() {
     new google.translate.TranslateElement(
       {
         pageLanguage: 'en',
         includedLanguages: 'pa,en',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-        autoDisplay: false
+        autoDisplay: true
       },
       'google_translate_element'
     );
+
+    // Force Punjabi on initial load
+    setTimeout(function () {
+      const select = document.querySelector('.goog-te-combo');
+      if (select) {
+        select.value = 'pa';
+        select.dispatchEvent(new Event('change'));
+      }
+    }, 800);
   }
 </script>
 
 <script
-  type="text/javascript"
   src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
 </script>
 
   </head>
 
 <body>
-<div id="google_translate_element"></div>
+<div id="google_translate_element" style="display:none;"></div>
+
 
   <!-- Sub Header -->
   <div class="sub-header">
