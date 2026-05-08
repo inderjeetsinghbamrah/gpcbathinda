@@ -1,31 +1,40 @@
-// FIRST MODAL OPEN
+// OPEN FIRST MODAL ON PAGE LOAD
 window.onload = function () {
     document.getElementById("bannerModal").style.display = "flex";
 };
 
-// CLOSE FIRST MODAL
+// CLOSE FIRST MODAL -> OPEN SECOND MODAL
 document.querySelector(".close-btn").onclick = function () {
+
+    // hide first modal
     document.getElementById("bannerModal").style.display = "none";
+
+    // show second modal
+    document.getElementById("admissionModal").style.display = "flex";
+
+    startSlider();
 };
 
-// BUTTON CLICK -> OPEN SECOND MODAL
+// BUTTON CLICK ALSO OPENS SECOND MODAL
 document.getElementById("proceedBtn").addEventListener("click", function () {
 
-    // Close first modal
+    // hide first modal
     document.getElementById("bannerModal").style.display = "none";
 
-    // Open second modal
+    // show second modal
     document.getElementById("admissionModal").style.display = "flex";
 
     startSlider();
 });
 
-// CLOSE SECOND MODAL
+// FINAL CLOSE
 document.querySelector(".close-admission").onclick = function () {
+
+    // close second modal completely
     document.getElementById("admissionModal").style.display = "none";
 };
 
-// AUTO SLIDER
+// SLIDER
 let currentSlide = 0;
 let sliderStarted = false;
 
@@ -45,5 +54,5 @@ function startSlider(){
 
         slides[currentSlide].classList.add("active");
 
-    }, 4000); // 4 seconds
+    }, 4000);
 }
