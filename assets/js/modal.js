@@ -1,24 +1,49 @@
-window.onload = function() {
-  document.getElementById("bannerModal").style.display = "flex";
+// FIRST MODAL OPEN
+window.onload = function () {
+    document.getElementById("bannerModal").style.display = "flex";
 };
 
-// Close modal when clicking ×
-document.querySelector(".close-btn").onclick = function() {
-  document.getElementById("bannerModal").style.display = "none";
+// CLOSE FIRST MODAL
+document.querySelector(".close-btn").onclick = function () {
+    document.getElementById("bannerModal").style.display = "none";
 };
 
-// Proceed button closes modal
-document.getElementById("proceedBtn").onclick = function() {
-  document.getElementById("bannerModal").style.display = "none";
+// BUTTON CLICK -> OPEN SECOND MODAL
+document.getElementById("proceedBtn").addEventListener("click", function () {
+
+    // Close first modal
+    document.getElementById("bannerModal").style.display = "none";
+
+    // Open second modal
+    document.getElementById("admissionModal").style.display = "flex";
+
+    startSlider();
+});
+
+// CLOSE SECOND MODAL
+document.querySelector(".close-admission").onclick = function () {
+    document.getElementById("admissionModal").style.display = "none";
 };
 
-// Prevent closing when clicking inside modal-content
-document.querySelector(".modal-content").onclick = function(event) {
-  event.stopPropagation();
-};
+// AUTO SLIDER
+let currentSlide = 0;
+let sliderStarted = false;
 
-// Optional: prevent outside click from closing (force button use)
-// Comment this block if you want outside click to also close
-document.getElementById("bannerModal").onclick = function() {
-  // do nothing
-};
+function startSlider(){
+
+    if(sliderStarted) return;
+
+    sliderStarted = true;
+
+    const slides = document.querySelectorAll(".slide");
+
+    setInterval(() => {
+
+        slides[currentSlide].classList.remove("active");
+
+        currentSlide = (currentSlide + 1) % slides.length;
+
+        slides[currentSlide].classList.add("active");
+
+    }, 4000); // 4 seconds
+}
